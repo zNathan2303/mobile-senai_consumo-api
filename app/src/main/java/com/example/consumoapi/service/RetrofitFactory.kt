@@ -12,6 +12,8 @@ class RetrofitFactory {
         .baseUrl(BASE_URL)
         .build()
 
+
+
     fun getEnderecoService(): EnderecoService {
         return retrofitFactory.create(EnderecoService::class.java)
     }
